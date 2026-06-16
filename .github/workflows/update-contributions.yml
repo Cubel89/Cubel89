@@ -1,0 +1,39 @@
+name: Update contribution stats
+
+on:
+  schedule:
+    - cron: '17 5 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Generate contribution chart
+        run: node scripts/update-contributions.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PROFILE_USER: Cubel89
+
+      - name: Commit chart changes
+        run: |
+          if [[ -z "$(git status --porcelain assets/contributions-by-year.svg)" ]]; then
+            echo "No contribution changes to commit."
+            exit 0
+          fi
+
+          git add assets/contributions-by-year.svg
+          git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" commit -m "Actualiza estadisticas de contribuciones"
+          git push
