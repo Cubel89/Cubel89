@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="520" height="360" viewBox="0 0 520 360" role="img" aria-labelledby="title desc">
   <title id="title">Repositorios por visibilidad</title>
-  <desc id="desc">Grafica donut con 196 repositorios: 17 publicos y 179 privados.</desc>
+  <desc id="desc">Gráfica donut con 196 repositorios: 17 públicos y 179 privados.</desc>
   <defs>
     <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#101827"/>
@@ -20,7 +20,7 @@
   </defs>
   <rect x="0" y="0" width="520" height="360" rx="28" fill="url(#card)"/>
   <text x="34" y="52" fill="#f8fafc" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="26" font-weight="800">Repositorios</text>
-  <text x="34" y="78" fill="#94a3b8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">Reparto manual por visibilidad</text>
+  <text x="34" y="78" fill="#94a3b8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">Mapa de proyectos en GitHub</text>
 
   <g transform="translate(165 190) rotate(-90)" filter="url(#shadow)">
     <circle r="82" cx="0" cy="0" fill="none" stroke="#1e293b" stroke-width="34"/>
@@ -34,7 +34,7 @@
   <g transform="translate(315 135)">
     <rect x="0" y="0" width="170" height="72" rx="18" fill="#0f172a" opacity="0.72"/>
     <circle cx="22" cy="25" r="7" fill="url(#public)"/>
-    <text x="42" y="30" fill="#e2e8f0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">Publicos</text>
+    <text x="42" y="30" fill="#e2e8f0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">Públicos</text>
     <text x="42" y="56" fill="#38bdf8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="900">17 - 8.7%</text>
   </g>
 

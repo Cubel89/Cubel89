@@ -138,7 +138,7 @@ function buildSvg({ createdAt, totals }) {
 
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" role="img" aria-labelledby="title desc">
   <title id="title">Contribuciones anuales de GitHub de ${escapeXml(login)}</title>
-  <desc id="desc">Grafica de barras con contribuciones anuales desde ${firstYear}.</desc>
+  <desc id="desc">Gráfica de barras con contribuciones anuales desde ${firstYear}.</desc>
   <defs>
     <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#0f172a"/>
@@ -177,8 +177,6 @@ ${grid}
     <line x1="${plotX}" y1="${baseline}" x2="${plotX + plotWidth}" y2="${baseline}" stroke="#475569" stroke-width="1.2"/>
 ${bars}
   </g>
-
-  <text x="${plotX}" y="382" fill="#64748b" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12">Generado automaticamente desde la API de GitHub.</text>
 </svg>
 `;
 }

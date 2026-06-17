@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Paco Cubel - apps, automatización y sistemas completos</title>
+  <desc id="desc">Cabecera visual del perfil de GitHub de Paco Cubel.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="45%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#172554"/>
+    </linearGradient>
+    <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#2563eb"/>
+    </linearGradient>
+    <linearGradient id="violet" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f0abfc"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.62"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M 48 0 L 0 0 0 48" fill="none" stroke="#1e293b" stroke-width="1" opacity="0.45"/>
+    </pattern>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="360" rx="36" fill="url(#bg)"/>
+  <rect width="1200" height="360" rx="36" fill="url(#grid)"/>
+  <circle cx="1020" cy="60" r="210" fill="url(#glow)" opacity="0.55"/>
+  <circle cx="90" cy="315" r="180" fill="url(#violet)" opacity="0.14"/>
+  <path d="M760 0 C875 82 940 108 1085 92 C1142 86 1182 98 1200 112 L1200 0 Z" fill="url(#cyan)" opacity="0.16"/>
+  <path d="M0 280 C126 222 230 260 344 228 C443 200 536 118 666 146" fill="none" stroke="url(#violet)" stroke-width="2" opacity="0.55"/>
+
+  <g transform="translate(72 72)">
+    <rect x="0" y="0" width="142" height="34" rx="17" fill="#0f172a" stroke="#334155"/>
+    <circle cx="22" cy="17" r="5" fill="#22c55e"/>
+    <text x="38" y="22" fill="#cbd5e1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">Disponible para crear</text>
+
+    <text x="0" y="96" fill="#f8fafc" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="64" font-weight="900" letter-spacing="-2">Paco Cubel</text>
+    <text x="3" y="136" fill="#bae6fd" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="25" font-weight="800">Apps, automatización y sistemas completos</text>
+    <text x="3" y="174" fill="#94a3b8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18">Producto - Backend - Frontend - DevOps - IA aplicada</text>
+
+    <g transform="translate(0 214)">
+      <rect x="0" y="0" width="126" height="38" rx="19" fill="#082f49" stroke="#0ea5e9" opacity="0.96"/>
+      <text x="63" y="25" fill="#e0f2fe" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="800" text-anchor="middle">Flutter</text>
+      <rect x="140" y="0" width="102" height="38" rx="19" fill="#1e1b4b" stroke="#8b5cf6" opacity="0.96"/>
+      <text x="191" y="25" fill="#ede9fe" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="800" text-anchor="middle">PHP</text>
+      <rect x="256" y="0" width="112" height="38" rx="19" fill="#052e16" stroke="#22c55e" opacity="0.96"/>
+      <text x="312" y="25" fill="#dcfce7" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="800" text-anchor="middle">Node.js</text>
+      <rect x="382" y="0" width="154" height="38" rx="19" fill="#451a03" stroke="#f59e0b" opacity="0.96"/>
+      <text x="459" y="25" fill="#ffedd5" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="800" text-anchor="middle">Automatización</text>
+    </g>
+  </g>
+
+  <g transform="translate(782 64)" filter="url(#shadow)">
+    <rect x="0" y="0" width="344" height="236" rx="26" fill="#020617" opacity="0.88"/>
+    <rect x="20" y="20" width="304" height="196" rx="18" fill="#0f172a" stroke="#1e293b"/>
+    <circle cx="45" cy="44" r="6" fill="#ef4444"/>
+    <circle cx="66" cy="44" r="6" fill="#f59e0b"/>
+    <circle cx="87" cy="44" r="6" fill="#22c55e"/>
+
+    <text x="42" y="86" fill="#38bdf8" font-family="SFMono-Regular, Consolas, Menlo, monospace" font-size="15" font-weight="700">$ construir-producto</text>
+    <text x="42" y="118" fill="#cbd5e1" font-family="SFMono-Regular, Consolas, Menlo, monospace" font-size="14">idea - interfaz - API</text>
+    <text x="42" y="148" fill="#cbd5e1" font-family="SFMono-Regular, Consolas, Menlo, monospace" font-size="14">datos - deploy - soporte</text>
+    <text x="42" y="184" fill="#22c55e" font-family="SFMono-Regular, Consolas, Menlo, monospace" font-size="15" font-weight="700">estado: en producción</text>
+  </g>
+</svg>
