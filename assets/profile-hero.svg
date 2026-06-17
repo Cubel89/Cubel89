@@ -35,7 +35,7 @@
   <path d="M0 280 C126 222 230 260 344 228 C443 200 536 118 666 146" fill="none" stroke="url(#violet)" stroke-width="2" opacity="0.55"/>
 
   <g transform="translate(72 72)">
-    <rect x="0" y="0" width="142" height="34" rx="17" fill="#0f172a" stroke="#334155"/>
+    <rect x="0" y="0" width="188" height="34" rx="17" fill="#0f172a" stroke="#334155"/>
     <circle cx="22" cy="17" r="5" fill="#22c55e"/>
     <text x="38" y="22" fill="#cbd5e1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">Disponible para crear</text>
 
