@@ -29,7 +29,7 @@
   <g transform="translate(630 42)">
     <rect x="0" y="0" width="236" height="52" rx="18" fill="#0f172a" opacity="0.86"/>
     <text x="18" y="22" fill="#94a3b8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="700">TOTAL</text>
-    <text x="18" y="43" fill="#f8fafc" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="900">8,726</text>
+    <text x="18" y="43" fill="#f8fafc" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="900">8,738</text>
     <text x="126" y="22" fill="#94a3b8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="700">MEJOR PERIODO</text>
     <text x="126" y="43" fill="#f0abfc" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="900">2026</text>
   </g>
@@ -80,8 +80,8 @@
 <rect x="752.9" y="274.0" width="51.5" height="51.0" rx="8" fill="url(#bar)"/>
 <text x="778.7" y="266.0" fill="#cbd5e1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="700" text-anchor="middle">746</text>
 <text x="778.7" y="349" fill="#94a3b8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="middle">2025</text>
-<rect x="814.5" y="157.6" width="51.5" height="167.4" rx="8" fill="url(#barHighlight)"/>
-<text x="840.2" y="149.6" fill="#cbd5e1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="700" text-anchor="middle">2,450</text>
+<rect x="814.5" y="156.8" width="51.5" height="168.2" rx="8" fill="url(#barHighlight)"/>
+<text x="840.2" y="148.8" fill="#cbd5e1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="700" text-anchor="middle">2,462</text>
 <text x="840.2" y="349" fill="#94a3b8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="middle">2026*</text>
   </g>
 </svg>
