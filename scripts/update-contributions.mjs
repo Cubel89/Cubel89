@@ -29,6 +29,10 @@ async function graphql(query, variables = {}) {
   return body.data;
 }
 
+// El año va escrito a mano a propósito: es un hecho de 2026, no el periodo en curso,
+// así que no debe seguir a currentYear cuando cambie el año.
+const NOTA_PIE = '2026: migración de gran parte de los proyectos desde AWS CodeCommit a GitHub.';
+
 function escapeXml(value) {
   return String(value)
     .replaceAll('&', '&amp;')
@@ -177,6 +181,8 @@ ${grid}
     <line x1="${plotX}" y1="${baseline}" x2="${plotX + plotWidth}" y2="${baseline}" stroke="#475569" stroke-width="1.2"/>
 ${bars}
   </g>
+
+  <text x="44" y="378" fill="#64748b" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12">${escapeXml(NOTA_PIE)}</text>
 </svg>
 `;
 }
